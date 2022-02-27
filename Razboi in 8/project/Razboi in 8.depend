@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1610647919 source:d:\codeblocks\projects\razboi in 8\main.cpp
+	<iostream>
+	<fstream>
+	<graphics.h>
+	<windows.h>
+	"mmsystem.h"
+
+1610714153 source:c:\users\andre\desktop\razboi in 8\main.cpp
+	<iostream>
+	<fstream>
+	<graphics.h>
+	<windows.h>
+	"mmsystem.h"
+
