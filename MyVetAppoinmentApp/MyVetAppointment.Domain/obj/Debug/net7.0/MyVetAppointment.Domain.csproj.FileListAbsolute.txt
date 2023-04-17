@@ -1,0 +1,14 @@
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\bin\Debug\net7.0\MyVetAppointment.Domain.deps.json
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\bin\Debug\net7.0\MyVetAppointment.Domain.runtimeconfig.json
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\bin\Debug\net7.0\MyVetAppointment.Domain.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\bin\Debug\net7.0\MyVetAppointment.Domain.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.csproj.AssemblyReference.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.AssemblyInfoInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.AssemblyInfo.cs
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.csproj.CoreCompileInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\refint\MyVetAppointment.Domain.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\MyVetAppointment.Domain.genruntimeconfig.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Domain\obj\Debug\net7.0\ref\MyVetAppointment.Domain.dll

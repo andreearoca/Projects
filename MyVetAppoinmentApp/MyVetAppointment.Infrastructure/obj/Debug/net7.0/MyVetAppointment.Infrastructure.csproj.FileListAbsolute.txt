@@ -1,0 +1,17 @@
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Infrastructure.deps.json
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Infrastructure.runtimeconfig.json
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Infrastructure.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Infrastructure.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Domain.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\bin\Debug\net7.0\MyVetAppointment.Domain.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.csproj.AssemblyReference.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.AssemblyInfoInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.AssemblyInfo.cs
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.csproj.CopyComplete
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\refint\MyVetAppointment.Infrastructure.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\MyVetAppointment.Infrastructure.genruntimeconfig.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Infrastructure\obj\Debug\net7.0\ref\MyVetAppointment.Infrastructure.dll

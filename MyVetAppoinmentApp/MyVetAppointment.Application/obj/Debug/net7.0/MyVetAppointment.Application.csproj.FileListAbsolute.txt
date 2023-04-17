@@ -1,0 +1,17 @@
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Application.deps.json
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Application.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Application.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Domain.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Domain.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.csproj.AssemblyReference.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.AssemblyInfoInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.AssemblyInfo.cs
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.csproj.CoreCompileInputs.cache
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.csproj.CopyComplete
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\refint\MyVetAppointment.Application.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\MyVetAppointment.Application.pdb
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\obj\Debug\net7.0\ref\MyVetAppointment.Application.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Infrastructure.dll
+C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppointment.Application\bin\Debug\net7.0\MyVetAppointment.Infrastructure.pdb
