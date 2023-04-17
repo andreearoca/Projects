@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "d88382f2-cd12-4178-86e7-b235cd5a2a1b",
+		"name": "Tema1_CC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26180950"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\r\n    \"name\":\"Roca Andreea\",\r\n    \"course\":\"ISSA\",\r\n    \"grade\":8}, \r\n  { \r\n    \"name\":\"Georgescu Ionut\",\r\n    \"course\":\"OOP\",\r\n    \"grade\":10},\r\n  { \r\n    \"name\":\"Popa Mihai\",\r\n    \"course\":\"CC\",\r\n    \"grade\":7},\r\n  {\r\n    \"name\":\"Matei Mircea\",\r\n    \"course\":\"CN\",\r\n    \"grade\":9},\r\n  {\r\n    \"name\":\"Ionescu Andrei\",\r\n    \"course\":\"SD\",\r\n    \"grade\":4\r\n  }]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/students/64065c6b0993c57a3e4260fe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"64065c6b0993c57a3e4260fe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostOne/ManyStudents",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PostWithId",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"TestWithId\",\r\n    \"course\": \"CC\",\r\n    \"grade\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/64065dff28c9e0730142dea1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"64065dff28c9e0730142dea1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutWithId",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PutAll",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"UpdateAll\",\r\n    \"course\": \"UpdateAll\",\r\n    \"grade\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/students/64065dff28c9e0730142dea1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"64065dff28c9e0730142dea1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAll",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

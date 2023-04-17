@@ -1,0 +1,20 @@
+{
+  "name": "tema1_cc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "uuid": "^9.0.0"
+  }
+}
