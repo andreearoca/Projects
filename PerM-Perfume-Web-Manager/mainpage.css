@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+}
+
+/*--------header----------*/
+
+#header {
+    padding: 10px;
+    height: 70px;
+    top: 0;
+    background: rosybrown;
+    text-indent: 20px;
+    text-align: left;
+}
+
+#head {
+    margin-top: 15px;
+}
+
+#logo {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+}
+
+#logout{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 40px;
+    text-indent: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: bisque;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+#logout:hover{
+    background-color: coral;
+    color: white;
+}
+
+#acc{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-indent: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: burlywood;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+#acc:hover{
+    background-color: coral;
+    color: white;
+}
+
+#login {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background: bisque;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: coral;
+    color: white;
+}
+
+#signup {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: burlywood;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#signup:hover{
+    background-color: coral;
+    color: white;
+}
+
+#help {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    background: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#help:hover{
+    background-color: coral;
+    color: white;
+}
+
+#about {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: cornsilk;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#about:hover {
+    background-color: coral;
+    color: white;
+}
+
+/*---------navbar---------*/
+
+#nav {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: linen;
+    border-radius: 10px;
+}
+
+#filters {
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.dropbtn-1, .dropbtn-2, .dropbtn-3{
+    padding: 10px 60px;
+    margin-top: 100px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn-2, .dropbtn-3{
+    padding: 10px 66.5px;
+    margin-top: 130px;
+}
+
+.dropdown-1, .dropdown-2, .dropdown-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-1, .dropdown-content-2, .dropdown-content-3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 16px;
+    min-width: 60px;
+    z-index: 1;
+}
+
+.dropdown-content-1 a, .dropdown-content-2 a, .dropdown-content-3 a {
+    color: black;
+    padding: 6px 58.5px;
+    text-decoration: none;
+    background: seashell;
+    display: block;
+}
+
+.dropdown-content-3 a {
+    padding: 8px 50px;
+}
+
+.dropdown-content-1 a:hover, .dropdown-content-2 a:hover, .dropdown-content-3 a:hover {
+    background-color: bisque
+}
+
+.dropdown-1:hover .dropdown-content-1, .dropdown-2:hover .dropdown-content-2, .dropdown-3:hover .dropdown-content-3 {
+    display: block;
+}
+
+.dropdown-1:hover .dropbtn-1, .dropdown-2:hover .dropbtn-2, .dropdown-3:hover .dropbtn-3 {
+    background-color: burlywood;
+}
+
+/*-----------main-------------*/
+
+#main {
+    height: 700px;
+    margin-left: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-links {
+
+}
+
+.product-container a div{
+    width: 100%;
+    height: 235px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-container a {
+    width: 270px;
+    text-decoration: none;
+    margin: 20px 10px 40px;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+h1#name {
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+}
+
+p#price {
+    font-weight: 700;
+    color: darkslategray;
+    margin-top: 0;
+}
+
+/*-----------footer-----------*/
+
+#footer {
+    width: 100%;
+    background: rosybrown;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#report {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    background: lemonchiffon;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#report:hover{
+    background: gold;
+}
+
+/*-----------redim-----------*/
+
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1281px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+    #header {
+        text-indent: 10px;
+    }
+
+    #login, #logout {
+        padding: 10px 11px;
+    }
+
+    #signup, #acc {
+        padding: 10px 11px;
+    }
+
+    #help {
+        padding: 10px 15px;
+        margin-right: 25px;
+    }
+
+    #about {
+        padding: 10px 15px;
+        margin-right: 10px;
+    }
+
+
+    #nav {
+        width: 180px;
+    }
+
+    .dropbtn-1, .dropbtn-2, .dropbtn-3{
+        padding: 10px 50px;
+    }
+
+    .dropbtn-2, .dropbtn-3{
+        padding: 10px 56.5px;
+    }
+
+    .dropdown-content-1 a, .dropdown-content-2 a, .dropdown-content-3 a {
+        padding: 6px 48.5px;
+    }
+
+    .dropdown-content-3 a {
+        padding: 8px 40px;
+    }
+
+    #main{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #header {
+        text-indent: 5px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+
+    #login, #logout {
+        padding: 10px 1px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    #signup, #acc {
+        padding: 10px 1px;
+        font-size: 12px;
+    }
+
+    #help {
+        padding: 10px 6px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    #about {
+        padding: 10px 6px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    #nav {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    .dropbtn-1, .dropbtn-2, .dropbtn-3{
+        padding: 10px 50px;
+        margin-top: 50px;
+    }
+
+    .dropbtn-2, .dropbtn-3{
+        padding: 10px 46.5px;
+    }
+
+    .dropdown-content-1 a, .dropdown-content-2 a, .dropdown-content-3 a {
+        padding: 6px 47.5px;
+    }
+
+    .dropdown-content-2 a, .dropdown-content-3 a {
+        padding: 8px 30px;
+    }
+
+    #main {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 481px) {
+
+    #header {
+        text-indent: 0px;
+    }
+
+    #logo {
+        font-size: 13px;
+    }
+
+    #login, #logout {
+        padding: 10px 2px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #signup {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #acc{
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 0px;
+    }
+
+    #help {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #about {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #nav {
+        position: relative;
+        width: 100%;
+        height: 100px;
+    }
+
+    .dropbtn-1, .dropbtn-2, .dropbtn-3{
+        padding: 10px 20px;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .dropbtn-2, .dropbtn-3{
+        padding: 10px 26.5px;
+    }
+
+    .dropdown-content-1 a, .dropdown-content-2 a, .dropdown-content-3 a {
+        padding: 8px 19px;
+        font-size: 10px;
+    }
+
+    #main {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .produse {
+        grid-template-columns: auto;
+    }
+}

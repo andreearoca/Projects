@@ -1,0 +1,627 @@
+body{
+    margin: 0;
+}
+
+/*--------header----------*/
+
+#header {
+    padding: 10px;
+    height: 70px;
+    top: 0;
+    background: rosybrown;
+    text-indent: 20px;
+    text-align: left;
+}
+
+#head {
+    margin-top: 15px;
+}
+
+#logo {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+}
+
+#logout{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 40px;
+    text-indent: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: bisque;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+#logout:hover{
+    background-color: coral;
+    color: white;
+}
+
+#acc{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-indent: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: burlywood;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+#acc:hover{
+    background-color: coral;
+    color: white;
+}
+
+#login {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background: bisque;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: coral;
+    color: white;
+}
+
+#signup {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: burlywood;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#signup:hover{
+    background-color: coral;
+    color: white;
+}
+
+#help {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    background: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#help:hover{
+    background-color: coral;
+    color: white;
+}
+
+#about {
+    float: right;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: cornsilk;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#about:hover {
+    background-color: coral;
+    color: white;
+}
+
+#product-detail .product-image{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+#product-detail {
+    margin-top: 50px;
+    background-color: MistyRose;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+#product-detail .product-details{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#product-detail .product-details h2{
+    padding: 20px 0 0px 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#product-detail .product-details h4{
+    font-family: Arial, sans-serif;
+}
+
+#product-detail .product-details h6{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#fail {
+    font-size: 20px;
+    color: maroon;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#product-detail .product-details button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background: Tan;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.popup{
+    width: 600px;
+    height: 600px;
+    background: LavenderBlush;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: trasnform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.label{
+    margin-top: 5px;
+    color: Maroon;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input {
+    width: 40%;
+    height: 10px;
+    background: Wheat;
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#product-detail .product-details span{
+    font-family: Garamond, sans-serif;
+    margin-top: 0px;
+}
+
+#product-detail1 .details{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 50%;
+}
+
+#title {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#description {
+    font-size: 14px;
+    color: gray;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#product-detail1 {
+    margin-top: 50px;
+    display: flex;
+}
+
+#product-detail1 .taggs{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 50%;
+}
+
+#product-detail1 .taggs1{
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#button{
+    float: left;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-indent: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: rosybrown;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.product-links {
+
+}
+
+.product-container a div{
+    width: 235px;
+    height: 235px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-container a {
+    width: 300px;
+    margin: 20px 10px 0;
+    text-decoration: none;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 5%;
+}
+
+h1#name {
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+}
+
+p#price {
+    font-weight: 700;
+    color: darkslategray;
+    margin-top: 0;
+}
+
+#title1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#product-comments{
+    margin-top: 50px;
+    background-color: MistyRose;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+#title2{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#single-comment{
+    background-color: ivory;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+
+#username{
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#comment{
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+
+#comment-field{
+    display:flex;
+    margin-bottom: 20px;
+    margin-left: 1%;
+}
+
+#add-comment{
+    width: 87%;
+    height: 10px;
+    background: ivory;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+/*-----------redim-----------*/
+
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1281px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+    #header {
+        text-indent: 10px;
+    }
+
+    #login, #logout {
+        padding: 10px 11px;
+    }
+
+    #signup, #acc {
+        padding: 10px 11px;
+    }
+
+    #help {
+        padding: 10px 15px;
+        margin-right: 25px;
+    }
+
+    #about {
+        padding: 10px 15px;
+        margin-right: 10px;
+    }
+    #title1 {
+        font-size: 30px;
+    }
+    #title2{
+        font-size: 30px;
+    }
+    #username{
+        font-size: 20px;
+    }
+    #comment{
+        font-size: 15px;
+    }
+    #add-comment{
+        height: 8px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #header {
+        text-indent: 5px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+
+    #login, #logout {
+        padding: 10px 1px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    #signup, #acc {
+        padding: 10px 1px;
+        font-size: 12px;
+    }
+
+    #help {
+        padding: 10px 6px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    #about {
+        padding: 10px 6px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #title1 {
+        font-size: 25px;
+    }
+    #title2{
+        font-size: 25px;
+    }
+    #username{
+        font-size: 20px;
+    }
+    #comment{
+        font-size: 15px;
+    }
+    #add-comment{
+        height: 8px;
+    }
+    #name{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 481px) {
+
+    #header {
+        text-indent: 0px;
+    }
+
+    #logo {
+        font-size: 13px;
+    }
+
+    #login, #logout {
+        padding: 10px 2px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #signup {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #acc{
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 0px;
+    }
+
+    #help {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #about {
+        padding: 10px 0px;
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    #product-detail{
+        display: inherit;
+    }
+
+    #MainImg{
+        margin-top: 10px;
+        width: 280%;
+        margin-left: 10%;
+    }
+
+    #product-detail .product-details{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    #product-detail .product-details h2{
+        width: 100%;
+        padding: 20px 0 0px 0;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    #product-detail .product-details h4{
+        font-family: Arial, sans-serif;
+    }
+
+    #product-detail .product-details h6{
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    #fail {
+        font-size: 20px;
+        color: maroon;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    #product-detail .product-details button{
+        padding: 10px 30px;
+        font-size: 15px;
+        font-weight: bold;
+        background: Tan;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    span{
+    }
+
+    #product-detail1 .taggs, #product-detail1 .details {
+        font-size: 20px;
+    }
+
+
+    #title1 {
+        font-size: 25px;
+    }
+    #title2{
+        font-size: 25px;
+    }
+    #username{
+        font-size: 20px;
+    }
+    #comment{
+        font-size: 15px;
+    }
+    #add-comment{
+        height: 8px;
+    }
+    #name{
+        font-size: 18px;
+    }
+}
