@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MyVetAppoinment.UI
+build_property.RootNamespace = MyVetAppoinment.UI
+build_property.ProjectDir = C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppoinment.UI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Facultate\dotNET\MyVetAppoinmentApp\MyVetAppoinment.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/AddAppointment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwb2ludG1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/AddPet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUGV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/AddShop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU2hvcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/CabinetOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FiaW5ldE92ZXJ2aWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/Cabinets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FiaW5ldHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/CreateCabinet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQ2FiaW5ldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/DeleteCabinet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlQ2FiaW5ldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/DeleteShop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU2hvcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/EditCabinet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENhYmluZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/EditShop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFNob3AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/FutureAppointments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnV0dXJlQXBwb2ludG1lbnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/SeeClients.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VlQ2xpZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/SeeDrugs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VlRHJ1Z3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/SeeMedicalHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VlTWVkaWNhbEhpc3RvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/Shops.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Pages/ShopsOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHNPdmVydmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bu8mv6qjls
+
+[C:/Facultate/dotNET/MyVetAppoinmentApp/MyVetAppoinment.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j2cazid7ue

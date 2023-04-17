@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyVetAppoinment.UI.props" />
+</Project>

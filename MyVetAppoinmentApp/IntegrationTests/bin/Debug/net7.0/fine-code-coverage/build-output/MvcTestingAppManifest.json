@@ -1,0 +1,6 @@
+{
+  "MyVetAppointment.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppointment.API",
+  "MyVetAppointment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppointment.Application",
+  "MyVetAppointment.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppointment.Domain",
+  "MyVetAppointment.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppointment.Infrastructure"
+}

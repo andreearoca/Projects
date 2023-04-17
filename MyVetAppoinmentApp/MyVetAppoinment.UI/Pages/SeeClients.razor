@@ -1,0 +1,52 @@
+﻿@page "/seeclients"
+<link href="css/client.css" rel="stylesheet" />
+<h2>Clients</h2>
+<div class="cont">
+    <div class="row">
+
+    <select class="form-control" @onchange="@OnValueChanged">
+        <option value="Select" selected disabled="disabled">Choose Cabinet</option>
+        @if (Cabinets == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else{
+                @foreach (var cabinet in Cabinets)
+                {
+                    <option value="@cabinet.Id"> @cabinet.Name </option>
+                }
+            }
+
+    </select>
+    
+        <a class="btn" @onclick="@Close">See clients</a>
+    </div>
+    <div class="row">
+        @if (Clients == null)
+        {
+            <p><em></em></p>
+        }
+        else
+        {
+            <div class="container">
+               <div class="row1" id="head">
+                    <div class="col">Client Name</div>
+                    <div class="col">Client Email</div>
+                    <div class="col">Client PhoneNumber</div>
+               </div>
+                <div class="row1">
+                    @foreach (var client in Clients)
+                    {
+                    <div class="col">@client.Name</div>
+                    <div class="col">@client.EMail</div>
+                    <div class="col">@client.PhoneNumber</div>
+                    }
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>
+
+

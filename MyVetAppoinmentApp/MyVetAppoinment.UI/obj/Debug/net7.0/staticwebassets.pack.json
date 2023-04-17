@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\obj\\Debug\\net7.0\\build-gz\\YlKoSsnO.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MyVetAppoinment.UI.styles.css",
+      "PackagePath": "staticwebassets\\MyVetAppoinment.UI.styles.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\appointment.css",
+      "PackagePath": "staticwebassets\\css\\appointment.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\cabinet.css",
+      "PackagePath": "staticwebassets\\css\\cabinet.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\client.css",
+      "PackagePath": "staticwebassets\\css\\client.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\css\\shop.css",
+      "PackagePath": "staticwebassets\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\1.jpg",
+      "PackagePath": "staticwebassets\\photo\\1.jpg"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\1.webp",
+      "PackagePath": "staticwebassets\\photo\\1.webp"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\2.jpeg",
+      "PackagePath": "staticwebassets\\photo\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\3.png",
+      "PackagePath": "staticwebassets\\photo\\3.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\4.png",
+      "PackagePath": "staticwebassets\\photo\\4.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\5.png",
+      "PackagePath": "staticwebassets\\photo\\5.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\6.png",
+      "PackagePath": "staticwebassets\\photo\\6.png"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\photo\\add.jpg",
+      "PackagePath": "staticwebassets\\photo\\add.jpg"
+    },
+    {
+      "Id": "C:\\Facultate\\dotNET\\MyVetAppoinmentApp\\MyVetAppoinment.UI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyVetAppoinment.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyVetAppoinment.UI.props",
+      "PackagePath": "build\\MyVetAppoinment.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyVetAppoinment.UI.props",
+      "PackagePath": "buildMultiTargeting\\MyVetAppoinment.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyVetAppoinment.UI.props",
+      "PackagePath": "buildTransitive\\MyVetAppoinment.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

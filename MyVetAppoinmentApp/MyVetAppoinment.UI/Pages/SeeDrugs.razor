@@ -1,0 +1,232 @@
+﻿@if (PageScope == "Shop")
+{
+    @page "/seedrugs/{shopId:guid}"
+    @inject NavigationManager NavigationManager
+    <link href="css/client.css" rel="stylesheet" />
+    <h2>Drugs</h2>
+
+    @if (Drugs == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table table-light">
+            <thead class="table-primary">
+            <th>Name</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Buy</th>
+            </thead>
+
+            <tbody>
+                @foreach (var drug in Drugs)
+                {
+                    <tr>
+                        <td>@drug.DrugName</td>
+                        <td>@drug.DrugDescription</td>
+                        <td>@drug.Quantity @drug.QuantityMeasure</td>
+                        <td>@drug.Price RON</td>
+
+                        @if (@drug.Stock == 0 || (ShoppingList.ContainsKey(drug) && ShoppingList[drug] == @drug.Stock))
+                        {
+                            <td>Out of stock</td>
+                        }
+                        else
+                        {
+                            <td>
+                                <a class="btn btn-outline-primary" @onclick="() => AddDrugToList(drug)">+</a>
+                            </td>
+                        }
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @if (ShoppingList.Count > 0)
+        {
+            <h2>Shopping List</h2>
+            <table class="table table-light">
+                <thead class="table-primary">
+                <th>Count</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Remove</th>
+                </thead>
+                <tbody>
+                    @foreach (var drug in ShoppingList.Keys)
+                    {
+                        <tr>
+                            <td>@ShoppingList[drug]</td>
+                            <td>@drug.DrugName</td>
+                            <td>@drug.Quantity @drug.QuantityMeasure</td>
+                            <td>@drug.Price RON</td>
+                            <td>
+                                <a style="background-color: coral; align-content: end" class="btn btn-outline-primary" @onclick="() => RemoveDrugFromList(drug)">-</a>
+                            </td>
+                        </tr>
+                    }
+                    <tr style="font-weight: bold">
+                        <td style="background-color: antiquewhite">Total</td>
+                        <td style="background-color: antiquewhite"></td>
+                        <td style="background-color: antiquewhite"></td>
+                        <td style="background-color: antiquewhite">@GetTotal() RON</td>
+                        <td style="background-color: antiquewhite">
+                            <a style="background-color:cadetblue" class="btn btn-outline-primary" onclick="@ShowPaymentForm">Buy</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+    }
+}
+else{ 
+        if (PageScope == "Payment")
+        {
+            @page "/payment"
+            <head>
+                <link href="../css/pay.css" rel="stylesheet" />
+            </head>
+            <div class="cont">
+            <div class="row"><h1>Please complete this form</h1></div>
+                <div class="row">
+                    <div class="modal-body">
+                        <EditForm Model="@Payment" OnValidSubmit="@MakePayment">
+                            <DataAnnotationsValidator/>
+                            <ValidationSummary/>
+
+                        <div class="form-group">
+                            <label for="FirstName"> First Name: </label>
+                                <InputText style="align-content: end" id="FirstName" class="form-control" @bind-Value="@Payment.FirstName" placeholder="First Name" required></InputText>
+                            </div>
+
+                        <div class="form-group">
+                            <label for="LastName"> Last Name: </label>
+                            <InputText style="align-content: end" id="LastName" class="form-control" @bind-Value="@Payment.LastName" placeholder="Last Name" required></InputText>
+                            </div>
+
+                        <div class="form-group">
+                            <label for="Address"> Address: </label>
+                            <InputText style="align-content: end" id="Address" class="form-control" @bind-Value="@Payment.Address" placeholder="Address" required></InputText>
+                            </div>
+
+                        <div class="form-group">
+                            <label for="CardNumber"> Card Number: </label>
+                            <InputText style="align-content: end" id="CardNumber" class="form-control" @bind-Value="@Payment.CardNumber" placeholder="Card Number" required></InputText>
+                                <ValidationMessage For="() => Payment.CardNumber"/>
+                            </div>
+
+                        <div class="form-group">
+                            <label for="CVC"> Security Code: </label>
+                            <InputText style="align-content: end" id="CVC" class="form-control" @bind-Value="@Payment.CVC" placeholder="CVC" required></InputText>
+                                <ValidationMessage For="() => Payment.CVC"/>
+                            </div>
+
+                        <div class="form-group">
+                                <label>Expiration Month: </label>
+
+                                <select class="form-control" @onchange="@OnValueChanged">
+                                <option style="align-content: end" value="Select" selected disabled="disabled" required>Choose Month</option>
+                                    @for (int m = 1; m <= 12; m++)
+                                    {
+                                        <option value=@m> @m </option>
+                                    }
+
+                                </select>
+                            </div>
+
+                        <div class="form-group">
+                                <label>Expiration Year:  </label>
+
+                                <select class="form-control" @onchange="@OnValueChanged">
+                                <option style="align-content: end" value="Select" selected disabled="disabled" required>Choose Year</option>
+                                    @for (int m = DateTime.Now.Year; m <= DateTime.Now.Year + 50; m++)
+                                    {
+                                        <option value=@m> @m </option>
+                                    }
+
+                                </select>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary">Pay</button>
+                                <a class="btn btn-outline-primary" @onclick="@CancelPayment">Close</a>
+                            </div>
+                        </EditForm>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            @page "/bill"
+            <head>
+                <meta charset="utf-8" />
+                <link href="../css/bill.css" rel="stylesheet" />
+            </head>
+
+	        <body>
+		        <div class="invoice-box">
+			        <table cellpadding="0" cellspacing="0">
+				        <tr class="top">
+					        <td colspan="2">
+						        <table>
+							        <tr>
+                                        <td>
+									        Date: @DateTime.Now<br />
+								        </td>
+							        </tr>
+						        </table>
+					        </td>
+				        </tr>
+
+				        <tr class="information">
+					        <td colspan="2">
+						        <table>
+							        <tr>
+                                        <td>
+                                            Address:
+                                            @Payment.Address
+                                        </td>
+
+                                        <td>
+                                            Full Name:
+                                            @Payment.FirstName @Payment.LastName
+                                        </td>
+							        </tr>
+						        </table>
+					        </td>
+				        </tr>
+
+                        <tr class="heading">
+                            <td>Count</td>
+
+                            <td>Item</td>
+
+                            <td>Price</td>
+                        </tr>
+                        
+                        @foreach (var drug in ShoppingList.Keys)
+                        {
+                            <tr class="item">
+                                <td>@ShoppingList[drug]</td>
+
+                                <td>@drug.DrugName</td>
+                                
+                                <td>@drug.Price RON</td>
+                            </tr>
+                        }
+
+                        <tr class="total">
+					        <td></td>
+
+					        <td>Total: @GetTotal() RON</td>
+				        </tr>
+			        </table>
+		        </div>
+	        </body>
+        }
+    }
+
